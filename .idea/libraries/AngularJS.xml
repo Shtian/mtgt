@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="AngularJS" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/app/lib/angular/angular.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/lib/angular/angular.js" />
+      <root url="file://$PROJECT_DIR$/app/lib/angular/angular.min.js" />
+    </CLASSES>
+    <DOCUMENTATION>
+      <root url="http://docs.angularjs.org/api/" />
+    </DOCUMENTATION>
+    <SOURCES />
+  </library>
+</component>
