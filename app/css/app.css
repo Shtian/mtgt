@@ -1,7 +1,20 @@
 /* app css stylesheet */
+@media screen and (min-device-pixel-ratio: 2) {
+    /* Set the retina background */
+    body {
+        background-image: url(/app/img/bright_squares_@2X.png);
+    }
+    header {
+        background-image: url(/app/img/asfalt_@2X.png)
+    }
+}
 body {
     position: relative;
     padding-top: 50px;
+    background-image: url(/app/img/bright_squares.png);
+}
+header {
+    background-image: url(/app/img/asfalt.png)
 }
 
 p.status {
@@ -14,4 +27,16 @@ p.status.good, p.good {
 
 .error {
    color: red;
+}
+
+/* TOURNAMENT CONTROLLER */
+.remove-player-item {
+    float: right;
+    color: #953b39;
+    cursor: pointer;
+}
+.remove-player-item:hover {
+    color: #953b39;
+    cursor: pointer;
+    text-decoration: none;
 }
