@@ -19,13 +19,18 @@ angular.module('myApp',
 
       $routeProvider.when('/account', {
          authRequired: true,
-         templateUrl: 'partials/account.html',
+         templateUrl: 'partials/Account.html',
          controller: 'AccountCtrl'
       });
 
       $routeProvider.when('/login', {
-         templateUrl: 'partials/login.html',
+         templateUrl: 'partials/Login.html',
          controller: 'LoginCtrl'
+      });
+
+      $routeProvider.when('/tournament', {
+        templateUrl: 'partials/TournamentView.html',
+        controller: 'TournamentCtrl'
       });
 
       $routeProvider.otherwise({redirectTo: '/Home'});

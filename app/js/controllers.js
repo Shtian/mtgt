@@ -109,4 +109,48 @@ angular.module('myApp.controllers', [])
          }
       }
 
-   }]);
+   }])
+
+.controller('TournamentCtrl', ['$scope', 'angularFireCollection', 'FBURL', '$timeout',
+      function TournamentCtrl($scope, angularFireCollection, FBURL, $timeout) {
+
+    $scope.tournaments = angularFireCollection(FBURL+'/tournaments', $scope, 'tournaments');
+
+    $scope.createTournament = function(){
+      var today = new Date().getTime();
+
+      $scope.tournaments.add({
+       title: angular.copy($scope.newTournamentName),
+       players: angular.copy($scope.players),
+       completed: false,
+       date: today
+      });
+
+      $scope.newTournamentName = null;
+      $scope.players = null;
+    };
+
+    function capitalizeFirstLetter(word){
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    }
+    // Add players
+    $scope.players = [];
+
+    $scope.addPlayer = function(){
+      if($scope.newPlayerName){
+        var player = new Object();
+        player.name = capitalizeFirstLetter($scope.newPlayerName);
+        $scope.players.push(player);
+        $scope.newPlayerName = null;
+      }
+    };
+
+      $scope.removePlayer = function(index) {
+        $scope.players.splice(index, 1)
+      };
+      // Enable creation when player count > 1
+      $scope.disableCreation = function(){
+        return ((!$scope.players) || ($scope.players.length < 3) || (!$scope.newTournamentName));
+      };
+
+    }]);

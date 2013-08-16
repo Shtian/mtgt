@@ -4,7 +4,6 @@
    /* Services */
 
    angular.module('myApp.services', [])
-
       .factory('loginService', ['angularFireAuth', 'profileCreator', '$location', '$rootScope',
          function(angularFireAuth, profileCreator, $location, $rootScope) {
             return {
