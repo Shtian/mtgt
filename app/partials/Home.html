@@ -1,5 +1,5 @@
 <h2>Tournament Overview</h2>
-<div ng-controller="TournamentCtrl">
+<div ng-controller="HomeCtrl">
   <div class="row">
     <div class="col-lg-4">
       <h3>New Tournament</h3>
@@ -31,10 +31,10 @@
     <div class="col-lg-4">
            <h3>All tournaments</h3>
       <div class="list-group">
-        <a class="list-group-item" ng-repeat="tournament in tournaments | orderBy:'title'" ng-click="gotoTournament(tournament.$id)">
+        <a class="list-group-item" ng-repeat="tournament in tournaments | orderBy:'title'" href="#/tournament/{{ tournament.$id }}">
           {{ tournament.title }}<i class="icon-arrow-right icon-large pull-right"></i>
         </a>
-      </ul>
+      </div>
     </div>
   </div>
   <!-- /.col-lg-6 -->
