@@ -112,6 +112,7 @@ angular.module('myApp.controllers', [])
         $scope.text = 'Test';
         $scope.tournaments = angularFireCollection(FBURL + '/tournaments', $scope, 'tournaments');
 
+        /* Generates a round robin tournament arrangement of matches. All play all. */
         function ArrangeRounds(players) {
           if (players.length % 2) {
             players.push({name: "Dummy Player", score: 0});
@@ -167,7 +168,7 @@ angular.module('myApp.controllers', [])
           var today = new Date().getTime();
           $scope.tournaments.add({
             title: angular.copy($scope.newTournamentName),
-            players: angular.copy($scope.players),
+            players: playerdata,
             completed: false,
             date: today,
             rounds: rounds
