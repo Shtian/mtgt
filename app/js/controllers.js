@@ -109,17 +109,68 @@ angular.module('myApp.controllers', [])
 
     .controller('HomeCtrl', ['$scope', '$location', 'angularFireCollection', 'FBURL', '$timeout',
       function HomeCtrl($scope, $location, angularFireCollection, FBURL, $timeout) {
-
+        $scope.text = 'Test';
         $scope.tournaments = angularFireCollection(FBURL + '/tournaments', $scope, 'tournaments');
 
-        $scope.createTournament = function () {
+        function ArrangeRounds(players) {
+          if (players.length % 2) {
+            players.push({name: "Dummy Player", score: 0});
+          }
+          var num = players.length;
+          var roundData = {
+            numberOfPlayers: num,
+            numberOfTotalMatches: ((num / 2) * (num - 1)),
+            matchesEachRound: (num / 2),
+            numberOfRounds: (num - 1),
+            rounds: []
+          };
 
+          for (var partner = 0; partner <= (num - 2); partner++) {
+            var round = [];
+            round.push({
+              player: players[num - 1].name,
+              opponent: players[partner].name,
+              match1: 0,
+              match2: 0,
+              match3: 0
+            });
+            for (var pair = 1; pair <= ((num - 2) / 2); pair++) {
+              var p1 = (partner - pair) % (num - 1);
+              if (p1 < 0) p1 += num - 1;
+              var p2 = (partner + pair) % (num - 1);
+              if (p2 < 0) p2 += num - 1;
+              console.log("pair = " + pair + ", partner = " + partner + ", p1 = " + p1 + ", p2 = " + p2);
+              round.push({
+                player: players[p1].name,
+                opponent: players[p2].name,
+                match1: 0,
+                match2: 0,
+                match3: 0
+              });
+            }
+            roundData.rounds.push(round);
+          }
+          return roundData;
+        }
+
+
+        $scope.createTournament = function () {
+          var playerdata = [];
+          var playerNameArray = angular.copy($scope.players);
+          for (var i = 0; i < playerNameArray.length; i++) {
+            playerdata.push({
+              name: playerNameArray[i], score: 0
+            });
+          }
+
+          var rounds = ArrangeRounds(playerdata);
           var today = new Date().getTime();
           $scope.tournaments.add({
             title: angular.copy($scope.newTournamentName),
             players: angular.copy($scope.players),
             completed: false,
-            date: today
+            date: today,
+            rounds: rounds
           });
 
           $scope.newTournamentName = null;
