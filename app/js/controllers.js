@@ -158,14 +158,17 @@ angular.module('myApp.controllers', [])
         $scope.createTournament = function () {
           var playerdata = [];
           var playerNameArray = angular.copy($scope.players);
+
           for (var i = 0; i < playerNameArray.length; i++) {
             playerdata.push({
-              name: playerNameArray[i], score: 0
+              name: playerNameArray[i].name, score: 0
             });
           }
-
+          // Generate all rounds with matches
           var rounds = ArrangeRounds(playerdata);
+
           var today = new Date().getTime();
+
           $scope.tournaments.add({
             title: angular.copy($scope.newTournamentName),
             players: playerdata,
@@ -173,7 +176,7 @@ angular.module('myApp.controllers', [])
             date: today,
             rounds: rounds
           });
-
+          // Reset Data
           $scope.newTournamentName = null;
           $scope.players = null;
         };
