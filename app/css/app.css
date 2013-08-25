@@ -2,41 +2,107 @@
 @media screen and (min-device-pixel-ratio: 2) {
     /* Set the retina background */
     body {
-        background-image: url(/app/img/bright_squares_@2X.png);
+        background-image: url(/app/img/shattered_@2X.png);
     }
+
     header {
         background-image: url(/app/img/asfalt_@2X.png)
     }
 }
+
 body {
     position: relative;
     padding-top: 50px;
-    background-image: url(/app/img/bright_squares.png);
+    background-image: url(/app/img/shattered.png);
 }
+
 header {
     background-image: url(/app/img/asfalt.png)
 }
 
 p.status {
-   color: red;
+    color: red;
 }
 
 p.status.good, p.good {
-   color: green;
+    color: green;
 }
 
 .error {
-   color: red;
+    color: red;
 }
 
-/* TOURNAMENT CONTROLLER */
+/* HOME VIEW */
 .remove-player-item {
     float: right;
     color: #953b39;
     cursor: pointer;
 }
+
 .remove-player-item:hover {
     color: #953b39;
     cursor: pointer;
     text-decoration: none;
+}
+
+/* TOURNAMENT VIEW */
+
+.score-board {
+    width: 260px;
+    font-size: 1.5em;
+}
+
+.score-board.affix {
+    top: 60px;
+}
+
+.player-list-item {
+    display: inline-block;
+    margin: auto 0;
+}
+
+.player-score {
+    display: inline-block;
+    padding: 4px 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 43px;
+    text-align: center;
+    float: right;
+}
+
+.score-digits {
+
+}
+
+.round-wrapper {
+    display: block;
+
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.match-wrapper {
+
+}
+
+.versus {
+    margin-left: 45px;
+    color: darkred;
+}
+
+.match {
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+.win-stars {
+    color: #2FA254;
+    display: inline-block;
+    position: relative;
+    top: -30px;
+    right: 10px;
 }

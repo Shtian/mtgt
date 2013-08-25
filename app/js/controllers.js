@@ -123,6 +123,7 @@ angular.module('myApp.controllers', [])
             numberOfTotalMatches: ((num / 2) * (num - 1)),
             matchesEachRound: (num / 2),
             numberOfRounds: (num - 1),
+            numberOfMatchesPlayed: 0,
             rounds: []
           };
 

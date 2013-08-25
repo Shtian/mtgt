@@ -1,26 +1,51 @@
 <div ng-controller="TournamentCtrl">
   <h2>{{ tournament.title }}</h2>
+
   <div class="row">
-  <div class="col-lg-4 tournamentScore">
-    <ul class="list-group">
-      <li class="list-group-item" ng-repeat="player in players | orderBy:'name'">
-        <span class="player-list-item">{{ player.name }}</span>
-      </li>
-    </ul>
-  </div>
-  <div class="row">
+
     <div class="col-lg-3">
-      <div class="table-container">
-        <div class="table-wrapper">
-          <div class="player-one">
-            Player one
+      <div class="score-board" data-spy="affix" data-offset-top="60">
+        <ul class="list-group">
+          <li class="list-group-item clearfix" ng-repeat="player in players | orderBy:['score','name']:reverse=true">
+            <div class="player-list-item">{{ player.name }}</div>
+            <div class="player-score"><span class="score-digits">{{ player.score }}</span></div>
+          </li>
+          <li class="list-group-item clearfix text-center">
+            Matches played: {{ tournament.rounds.numberOfMatchesPlayed }} / {{ tournament.rounds.numberOfTotalMatches }}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-lg-9 pull-right">
+      <div class="row round-wrapper" ng-repeat="round in tournament.rounds.rounds">
+
+        <div class="row">
+
+          <div class="col-lg-12 text-center">
+            <h2>Round #{{ $index + 1 }}</h2>
           </div>
-          <div class="player-two">
-            Player Two
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 match-wrapper" ng-repeat="match in round">
+            <div class="match">
+              <div class="match-player">
+                <div>{{ match.player }}</div>
+                <div class="win-stars pull-right"><i class="icon-circle-blank"></i> <i class="icon-circle-blank"></i>
+                </div>
+              </div>
+              <div class="versus">Vs.</div>
+              <div class="match-opponent">
+                <div>{{ match.opponent }}</div>
+                <div class="win-stars pull-right"><i class="icon-circle-blank"></i> <i class="icon-circle-blank"></i>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+
   </div>
 </div>
