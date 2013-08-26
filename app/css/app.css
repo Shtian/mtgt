@@ -104,11 +104,10 @@ p.status.good, p.good {
 
 .round-wrapper {
     display: block;
-    margin-bottom: 10px;
 }
 
 .match-wrapper {
-
+    margin-bottom: 10px;
 }
 
 .match-player, .match-opponent {
