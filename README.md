@@ -7,6 +7,9 @@ Each round should be randomized and winners (best out of 3) from each match reco
 
 The project is forked from an AngularFire seed.
 
+Magic Icons used in header made by deviant art user hush66.
+http://hush66.deviantart.com/art/Magic-The-Gathering-Mana-4069453
+
 ##The MIT License (MIT)
 
  Copyright (c) 2013 Stian Haga

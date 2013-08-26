@@ -1,63 +1,63 @@
 <div ng-controller="TournamentCtrl">
-  <h2>{{ remote.title }}</h2>
+    <h2>{{ remote.title }}</h2>
 
-  <div class="row">
+    <div class="row">
 
-    <div class="col-lg-3">
-      <div class="row">
+        <div class="col-lg-3">
+            <div class="row">
 
-        <div class="col-lg-12">
-          <h2>Scoreboard</h2>
-        </div>
-      </div>
-
-      <div class="score-board">
-        <ul class="list-group">
-          <li ng-hide="{{player.name=='Dummy Player'}}" class="list-group-item clearfix"
-              ng-repeat="player in remote.players | orderBy:['score','name']:reverse=true">
-            <div class="player-list-item">{{ $index +1 }}. {{ player.name }}</div>
-            <div class="player-score"><span class="score-digits">{{ player.score }}</span></div>
-          </li>
-          <li class="list-group-item clearfix text-center">
-            {{ remote.roundData.numberOfMatchesPlayed }} / {{ remote.roundData.numberOfTotalMatches }}
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="col-lg-9">
-      <div class="row round-wrapper" ng-repeat="round in remote.roundData.rounds">
-
-        <div class="row">
-
-          <div class="col-lg-12">
-            <h2 ng-class="{$index}">Round #{{ $index + 1 }}</h2>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 match-wrapper" ng-repeat="match in round">
-            <div class="{{ dummyClass(match.player, match.opponent) }} match">
-              <div class="match-player">
-                <div>{{ match.player }}</div>
-                <div ng-class="(match.player==match.winner)?'winner-trophy-active':'winner-trophy'"
-                     ng-click="toggleWinner(match.player, match)">
-                  <i class="icon-trophy icon-large"></i>
+                <div class="col-lg-12">
+                    <h3>Scoreboard</h3>
                 </div>
-              </div>
-              <div class="versus">Vs.</div>
-              <div class="match-opponent">
-                <div>{{ match.opponent }}</div>
-                <div ng-class="(match.opponent==match.winner)?'winner-trophy-active':'winner-trophy'"
-                     ng-click="toggleWinner(match.opponent, match)">
-                  <i class="icon-trophy icon-large"></i>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-  </div>
+            <div class="score-board">
+                <ul class="list-group">
+                    <li ng-hide="{{player.name=='Dummy Player'}}" class="list-group-item clearfix"
+                        ng-repeat="player in remote.players | orderBy:['score','name']:reverse=true">
+                        <div class="player-list-item">{{ $index +1 }}. {{ player.name }}</div>
+                        <div class="player-score"><span class="score-digits">{{ player.score }}</span></div>
+                    </li>
+                    <li class="list-group-item clearfix text-center">
+                        {{ remote.roundData.numberOfMatchesPlayed }} / {{ remote.roundData.numberOfTotalMatches }}
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-9">
+            <div class="row round-wrapper" ng-repeat="round in remote.roundData.rounds">
+
+                <div class="row">
+
+                    <div class="col-lg-12">
+                        <h3 ng-class="{$index}">Round #{{ $index + 1 }}</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 match-wrapper" ng-repeat="match in round">
+                        <div class="{{ dummyClass(match.player, match.opponent) }} match">
+                            <div class="match-player">
+                                <div>{{ match.player }}</div>
+                                <div ng-class="(match.player==match.winner)?'winner-trophy-active':'winner-trophy'"
+                                     ng-click="toggleWinner(match.player, match)">
+                                    <i class="icon-trophy icon-large"></i>
+                                </div>
+                            </div>
+                            <div class="versus">Vs.</div>
+                            <div class="match-opponent">
+                                <div>{{ match.opponent }}</div>
+                                <div ng-class="(match.opponent==match.winner)?'winner-trophy-active':'winner-trophy'"
+                                     ng-click="toggleWinner(match.opponent, match)">
+                                    <i class="icon-trophy icon-large"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </div>

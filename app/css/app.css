@@ -20,6 +20,10 @@ header {
     background-image: url(/img/asfalt.png)
 }
 
+.navbar-brand-wrapper {
+    position: relative;
+}
+
 p.status {
     color: red;
 }
@@ -30,6 +34,27 @@ p.status.good, p.good {
 
 .error {
     color: red;
+}
+
+/* DIRECTIVES */
+
+.magic-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -16px;
+    margin-left: -100px;
+    width: 200px;
+}
+
+.magic-icons img {
+    margin-left: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.magic-icons img:first-child {
+    margin-left: 0;
 }
 
 /* HOME VIEW */
