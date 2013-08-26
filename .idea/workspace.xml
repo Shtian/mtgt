@@ -11,12 +11,12 @@
     <file path="/view2.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376573810839" ignored="false" />
     <file path="/login.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376641789391" ignored="false" />
     <file path="/account.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376641688070" ignored="false" />
-    <file path="/Dummy.txt" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377553442448" ignored="false" />
+    <file path="/Dummy.txt" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377554264287" ignored="false" />
     <file path="/Procfile" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377542243452" ignored="false" />
     <file path="/view1.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376593209925" ignored="false" />
     <file path="/Home.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377546631994" ignored="false" />
     <file path="/a.js" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376594377687" ignored="false" />
-    <file path="/app.css" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377554044886" ignored="false" />
+    <file path="/app.css" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377554280127" ignored="false" />
     <file path="/README.md" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377553336382" ignored="false" />
     <file path="/a.dummy" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377553431952" ignored="false" />
     <file path="/test.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376667977401" ignored="false" />
@@ -90,7 +90,7 @@
       <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="25" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.5920398">
+            <state line="43" column="29" selection-start="669" selection-end="669" vertical-scroll-proportion="0.5356551">
               <folding />
             </state>
           </provider>
@@ -480,7 +480,11 @@
       <created>1377553446255</created>
       <updated>1377553446255</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fixed margins on match-wrappers.">
+      <created>1377554100636</created>
+      <updated>1377554100636</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -548,7 +552,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added magic icons directory, added to header. Moved favicon." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed margins on match-wrappers." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -581,6 +585,7 @@
     <MESSAGE value="Auto routes &quot;/&quot; to index.html. Added version info to footer." />
     <MESSAGE value="Floating divs in footer. Not sure if responsive, or just float hell." />
     <MESSAGE value="Added magic icons directory, added to header. Moved favicon." />
+    <MESSAGE value="Fixed margins on match-wrappers." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -691,7 +696,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="25" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.5920398">
+        <state line="43" column="29" selection-start="669" selection-end="669" vertical-scroll-proportion="0.5356551">
           <folding />
         </state>
       </provider>

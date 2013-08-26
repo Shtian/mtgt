@@ -37,6 +37,11 @@ p.status.good, p.good {
 }
 
 /* DIRECTIVES */
+@media (max-width: 768px) {
+    header .magic-icons {
+        display: none;
+    }
+}
 
 .magic-icons {
     position: absolute;
