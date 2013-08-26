@@ -2,30 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44871ced-b0ad-4c98-9202-add46c550090" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/TournamentView.html" afterPath="$PROJECT_DIR$/app/partials/TournamentView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/app.css" afterPath="$PROJECT_DIR$/app/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/bootstrap.css" afterPath="$PROJECT_DIR$/app/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MTGT.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376763875624" ignored="false" />
+    <file path="/index.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377523423944" ignored="false" />
     <file path="/view2.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376573810839" ignored="false" />
     <file path="/login.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376641789391" ignored="false" />
     <file path="/account.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376641688070" ignored="false" />
-    <file path="/Dummy.txt" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377440063438" ignored="false" />
+    <file path="/Dummy.txt" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377523659199" ignored="false" />
     <file path="/Procfile" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376591714608" ignored="false" />
     <file path="/view1.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376593209925" ignored="false" />
     <file path="/Home.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376820183531" ignored="false" />
     <file path="/a.js" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376594377687" ignored="false" />
     <file path="/app.css" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377502119023" ignored="false" />
-    <file path="/README.md" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376643164459" ignored="false" />
-    <file path="/a.dummy" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377298434999" ignored="false" />
+    <file path="/README.md" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377523505410" ignored="false" />
+    <file path="/a.dummy" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377521117183" ignored="false" />
     <file path="/test.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376667977401" ignored="false" />
-    <file path="/TournamentView.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377499984671" ignored="false" />
-    <file path="/app.js" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376676287500" ignored="false" />
+    <file path="/TournamentView.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377522030885" ignored="false" />
+    <file path="/app.js" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377521156226" ignored="false" />
     <file path="/controllers.js" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377499870450" ignored="false" />
     <file path="/services.js" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376685854547" ignored="false" />
     <file path="/karma.conf.js" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377296898897" ignored="false" />
@@ -65,7 +62,16 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="241" column="49" selection-start="8128" selection-end="8128" vertical-scroll-proportion="-87.68">
+            <state line="241" column="48" selection-start="8147" selection-end="8147" vertical-scroll-proportion="-129.92">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="41" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,25 +80,16 @@
       <file leaf-file-name="TournamentView.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/TournamentView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="12" selection-start="689" selection-end="689" vertical-scroll-proportion="-7.68">
+            <state line="16" column="38" selection-start="423" selection-end="423" vertical-scroll-proportion="-3.84">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/lib/angular/angular.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12607" column="35" selection-start="413882" selection-end="413882" vertical-scroll-proportion="-0.84">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="14" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.7547893">
+            <state line="128" column="14" selection-start="2094" selection-end="2094" vertical-scroll-proportion="-15.76">
               <folding />
             </state>
           </provider>
@@ -101,7 +98,7 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4977" column="13" selection-start="89545" selection-end="89556" vertical-scroll-proportion="-8.88">
+            <state line="5158" column="15" selection-start="94676" selection-end="94687" vertical-scroll-proportion="2.28">
               <folding />
             </state>
           </provider>
@@ -110,7 +107,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="97" selection-start="366" selection-end="366" vertical-scroll-proportion="-5.12">
+            <state line="38" column="47" selection-start="1342" selection-end="1342" vertical-scroll-proportion="-0.64">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="29" selection-start="483" selection-end="483" vertical-scroll-proportion="0.26637554">
               <folding />
             </state>
           </provider>
@@ -128,26 +134,69 @@
       <file leaf-file-name="angularFire.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/lib/firebase/angularFire.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="5" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0">
+            <state line="387" column="57" selection-start="13106" selection-end="13106" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/services.js">
+      <file leaf-file-name="angular-scenario.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/lib/angular/angular-scenario.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="karma.conf.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/karma.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="20" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="10842" column="28" selection-start="294369" selection-end="294369" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1376568067000" expanded="false" signature="35068:35099" placeholder="..." />
+                <marker date="1376568067000" expanded="false" signature="43761:43771" placeholder="..." />
+                <marker date="1376568067000" expanded="true" signature="806450:806472" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="806486:806509" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="806657:806730" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="806748:806796" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="806812:806834" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="806846:806886" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="806897:806923" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="806944:807010" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="807025:807165" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="807197:807255" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="807274:807322" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="807381:807406" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="807423:807444" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="807468:807506" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="807531:807552" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="807576:807597" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="807676:807706" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="807749:807782" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="807797:807970" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="808002:808037" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="808067:808101" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="808129:808185" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="808201:808228" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="808269:808290" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="808313:808339" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="808371:808432" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="808491:808568" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="808586:808609" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="808630:808657" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="808675:808763" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="808800:808858" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="808877:808907" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="808941:808974" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="809027:809061" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="809077:809123" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="809152:809186" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="809200:809238" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="809270:809304" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="809321:809355" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="809389:809501" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="809521:809552" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="809617:809651" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="809716:809750" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="809815:809849" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="809910:809959" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="810005:810028" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="810074:810097" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="810141:810162" placeholder="{...}" />
+                <marker date="1376568067000" expanded="true" signature="810194:810214" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,10 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/index-async.html" />
-        <option value="$PROJECT_DIR$/app/test.html" />
-        <option value="$PROJECT_DIR$/app/js/services.js" />
-        <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/partials/Home.html" />
         <option value="$PROJECT_DIR$/test/unit/controllersSpec.js" />
         <option value="$PROJECT_DIR$/test/unit/directivesSpec.js" />
@@ -192,10 +237,14 @@
         <option value="$PROJECT_DIR$/config/karma.conf.js" />
         <option value="$PROJECT_DIR$/test/unit/HomeCtrlSpec.js" />
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/app/partials/TournamentView.html" />
         <option value="$PROJECT_DIR$/app/css/app.css" />
+        <option value="$PROJECT_DIR$/app/lib/angular/version.txt" />
+        <option value="$PROJECT_DIR$/test/lib/angular/angular-scenario.js" />
+        <option value="$PROJECT_DIR$/app/js/app.js" />
+        <option value="$PROJECT_DIR$/app/partials/TournamentView.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -304,6 +353,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MTGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MTGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -336,47 +399,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MTGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MTGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MTGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MTGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -395,42 +418,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MTGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MTGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MTGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MTGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -591,27 +578,35 @@
       <created>1377429607392</created>
       <updated>1377429607392</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="TournamentView is more responsive and winners can be recorded. Score is also working">
+      <created>1377520458836</created>
+      <updated>1377520458836</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Refactored to use Angular v. 1.2. UNSTABLE D: RouteProvider-&gt;NgRoute, included route.js file in index.html.">
+      <created>1377523696194</created>
+      <updated>1377523696194</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="22" width="1397" height="878" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32849604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.80263156" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20378457" sideWeight="0.8039474" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20378457" sideWeight="0.67150396" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1477438" sideWeight="0.80263156" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32799146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19605263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19656992" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39973614" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -622,7 +617,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
       <value>
@@ -659,7 +654,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="TournamentView now lists all rounds, matches and players." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored to use Angular v. 1.2. UNSTABLE D: RouteProvider-&gt;NgRoute, included route.js file in index.html." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -685,19 +680,18 @@
     <MESSAGE value="Controller now adds playerdata with score to the tournament." />
     <MESSAGE value="Adds player names as string, not as a nested name object." />
     <MESSAGE value="TournamentView now lists all rounds, matches and players." />
+    <MESSAGE value="TournamentView is more responsive and winners can be recorded. Score is also working" />
+    <MESSAGE value="Refactored to use Angular v. 1.2. UNSTABLE D: RouteProvider-&gt;NgRoute, included route.js file in index.html." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/karma-e2e.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/e2e-test.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/e2e-test.sh">
@@ -706,13 +700,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -740,13 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/firebase/angularFire.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -754,44 +734,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/angular/angular.js">
+    <entry file="file://$PROJECT_DIR$/app/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12607" column="35" selection-start="413882" selection-end="413882" vertical-scroll-proportion="-0.84">
+        <state line="5158" column="15" selection-start="94676" selection-end="94687" vertical-scroll-proportion="2.28">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/firebase/angularFire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="387" column="57" selection-start="13106" selection-end="13106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/angular/angular-scenario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10842" column="28" selection-start="294369" selection-end="294369" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1376568067000" expanded="false" signature="35068:35099" placeholder="..." />
+            <marker date="1376568067000" expanded="false" signature="43761:43771" placeholder="..." />
+            <marker date="1376568067000" expanded="true" signature="806450:806472" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="806486:806509" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="806657:806730" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="806748:806796" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="806812:806834" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="806846:806886" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="806897:806923" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="806944:807010" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="807025:807165" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="807197:807255" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="807274:807322" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="807381:807406" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="807423:807444" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="807468:807506" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="807531:807552" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="807576:807597" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="807676:807706" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="807749:807782" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="807797:807970" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="808002:808037" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="808067:808101" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="808129:808185" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="808201:808228" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="808269:808290" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="808313:808339" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="808371:808432" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="808491:808568" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="808586:808609" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="808630:808657" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="808675:808763" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="808800:808858" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="808877:808907" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="808941:808974" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="809027:809061" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="809077:809123" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="809152:809186" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="809200:809238" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="809270:809304" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="809321:809355" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="809389:809501" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="809521:809552" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="809617:809651" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="809716:809750" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="809815:809849" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="809910:809959" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="810005:810028" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="810074:810097" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="810141:810162" placeholder="{...}" />
+            <marker date="1376568067000" expanded="true" signature="810194:810214" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="241" column="49" selection-start="8128" selection-end="8128" vertical-scroll-proportion="-87.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="97" selection-start="366" selection-end="366" vertical-scroll-proportion="-5.12">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4977" column="13" selection-start="89545" selection-end="89556" vertical-scroll-proportion="-8.88">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/TournamentView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="12" selection-start="689" selection-end="689" vertical-scroll-proportion="-7.68">
+        <state line="241" column="48" selection-start="8147" selection-end="8147" vertical-scroll-proportion="-129.92">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="14" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.7547893">
+        <state line="128" column="14" selection-start="2094" selection-end="2094" vertical-scroll-proportion="-15.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="41" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/TournamentView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="38" selection-start="423" selection-end="423" vertical-scroll-proportion="-3.84">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="47" selection-start="1342" selection-end="1342" vertical-scroll-proportion="-0.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="483" selection-end="483" vertical-scroll-proportion="0.26637554">
           <folding />
         </state>
       </provider>

@@ -13,7 +13,7 @@
 
       <div class="score-board">
         <ul class="list-group">
-          <li class="list-group-item clearfix"
+          <li ng-hide="{{player.name=='Dummy Player'}}" class="list-group-item clearfix"
               ng-repeat="player in remote.players | orderBy:['score','name']:reverse=true">
             <div class="player-list-item">{{ $index +1 }}. {{ player.name }}</div>
             <div class="player-score"><span class="score-digits">{{ player.score }}</span></div>
@@ -40,14 +40,16 @@
             <div class="{{ dummyClass(match.player, match.opponent) }} match">
               <div class="match-player">
                 <div>{{ match.player }}</div>
-                <div class="winner-trophy" ng-click="toggleWinner(match.player, match)">
+                <div ng-class="(match.player==match.winner)?'winner-trophy-active':'winner-trophy'"
+                     ng-click="toggleWinner(match.player, match)">
                   <i class="icon-trophy icon-large"></i>
                 </div>
               </div>
               <div class="versus">Vs.</div>
               <div class="match-opponent">
                 <div>{{ match.opponent }}</div>
-                <div class="winner-trophy" ng-click="toggleWinner(match.opponent, match)">
+                <div ng-class="(match.opponent==match.winner)?'winner-trophy-active':'winner-trophy'"
+                     ng-click="toggleWinner(match.opponent, match)">
                   <i class="icon-trophy icon-large"></i>
                 </div>
               </div>
