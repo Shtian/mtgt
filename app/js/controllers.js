@@ -114,12 +114,13 @@ angular.module('myApp.controllers', [])
 
         /* Generates a round robin tournament arrangement of matches. All play all. */
         function ArrangeRounds(players) {
+          var dummyPlayer = players.length % 2;
           if (players.length % 2) {
             players.push({name: "Dummy Player", score: 0});
           }
           var num = players.length;
           var roundData = {
-            numberOfPlayers: num,
+            numberOfPlayers: num - dummyPlayer,
             numberOfTotalMatches: ((num / 2) * (num - 1)),
             matchesEachRound: (num / 2),
             numberOfRounds: (num - 1),
@@ -132,23 +133,24 @@ angular.module('myApp.controllers', [])
             round.push({
               player: players[num - 1].name,
               opponent: players[partner].name,
-              match1: 0,
-              match2: 0,
-              match3: 0
+              winner: ""
             });
             for (var pair = 1; pair <= ((num - 2) / 2); pair++) {
               var p1 = (partner - pair) % (num - 1);
               if (p1 < 0) p1 += num - 1;
               var p2 = (partner + pair) % (num - 1);
               if (p2 < 0) p2 += num - 1;
-              console.log("pair = " + pair + ", partner = " + partner + ", p1 = " + p1 + ", p2 = " + p2);
               round.push({
                 player: players[p1].name,
                 opponent: players[p2].name,
-                match1: 0,
-                match2: 0,
-                match3: 0
+                winner: ""
               });
+            }
+            // Subtract all matches with a dummy player from the total matches count.
+            for (var i = 0; i < round.length; i++) {
+              if (round[i].player == 'Dummy Player' || round[i].opponent == 'Dummy Player') {
+                roundData.numberOfTotalMatches--;
+              }
             }
             roundData.rounds.push(round);
           }
@@ -175,7 +177,7 @@ angular.module('myApp.controllers', [])
             players: playerdata,
             completed: false,
             date: today,
-            rounds: rounds
+            roundData: rounds
           });
           // Reset Data
           $scope.newTournamentName = null;
@@ -215,10 +217,71 @@ angular.module('myApp.controllers', [])
 
         angularFire(FBURL + '/tournaments/' + $routeParams.tournamentId, $scope, 'remote', {}).
             then(function () {
-              $scope.tournament = angular.copy($scope.remote);
-              $scope.players = angular.copy($scope.remote.players);
-              $scope.tournament.$id = $routeParams.tournamentId;
+              $scope.dummyClass = function (player, opponent) {
+                if (player == 'Dummy Player' || opponent == 'Dummy Player') {
+                  return "dummy-match";
+                }
+                return "";
+              }
+
+              $scope.isWinner = function (playerName, match) {
+                return match.matchWinner == playerName;
+              }
+
+              $scope.toggleWinner = function (playerName, match) {
+                // Matches with dummy players should not be counted
+                if (match.opponent == 'Dummy Player' || match.player == 'Dummy Player') {
+                  return;
+                }
+
+                // no winner, go through and increment score, set winner and increment matches played
+                if (match.winner == "") {
+                  for (var i = 0; i < $scope.remote.players.length; i++) {
+                    if ($scope.remote.players[i].name == playerName) {
+                      $scope.remote.players[i].score++;
+                      match.winner = playerName;
+                      $scope.remote.roundData.numberOfMatchesPlayed++;
+                      break;
+                    }
+                  }
+                }
+                else {
+                  //Decrease score and remove winner if the player is already the winner
+                  if (match.winner == playerName) {
+                    for (var i = 0; i < $scope.remote.players.length; i++) {
+                      if ($scope.remote.players[i].name == playerName) {
+                        $scope.remote.players[i].score--;
+                        match.winner = "";
+                        $scope.remote.roundData.numberOfMatchesPlayed--;
+                        break;
+                      }
+                    }
+                  }
+                  else {
+                    // winner is not the current winner and the winner is already set.
+                    // find current winner and remove, set new winner.
+                    for (var i = 0; i < $scope.remote.players.length; i++) {
+                      if ($scope.remote.players[i].name == match.winner) {
+                        $scope.remote.players[i].score--;
+                        match.winner = "";
+                        $scope.remote.roundData.numberOfMatchesPlayed--;
+                        break;
+                      }
+                    }
+                    for (var i = 0; i < $scope.players.length; i++) {
+                      if ($scope.remote.players[i].name == playerName) {
+                        $scope.remote.players[i].score++;
+                        match.winner = playerName;
+                        $scope.remote.roundData.numberOfMatchesPlayed++;
+                        break;
+                      }
+                    }
+                  }
+                }
+              }
             });
+
+
       }])
 
 ;

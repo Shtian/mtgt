@@ -48,12 +48,14 @@ p.status.good, p.good {
 /* TOURNAMENT VIEW */
 
 .score-board {
-    width: 260px;
     font-size: 1.5em;
 }
 
-.score-board.affix {
-    top: 60px;
+@media (min-width: 768px) {
+    .score-board-affix {
+        position: fixed;
+        top: 60px;
+    }
 }
 
 .player-list-item {
@@ -65,7 +67,7 @@ p.status.good, p.good {
     display: inline-block;
     padding: 4px 10px;
     border: 2px solid black;
-    border-radius: 25px;
+    border-radius: 27px;
     width: 43px;
     text-align: center;
     float: right;
@@ -77,8 +79,6 @@ p.status.good, p.good {
 
 .round-wrapper {
     display: block;
-
-    padding: 10px;
     margin-bottom: 10px;
 }
 
@@ -86,8 +86,11 @@ p.status.good, p.good {
 
 }
 
+.match-player, .match-opponent {
+    position: relative;
+}
+
 .versus {
-    margin-left: 45px;
     color: darkred;
 }
 
@@ -97,12 +100,32 @@ p.status.good, p.good {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     border-radius: 4px;
+    box-shadow: 3px 3px 4px #aaa;
 }
 
-.win-stars {
-    color: #2FA254;
+.match.dummy-match {
+    background-color: #ccc;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+    background-size: 50px 50px;
+}
+
+.winner-trophy {
+    color: #ccc;
     display: inline-block;
-    position: relative;
-    top: -30px;
-    right: 10px;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+.winner-trophy-active {
+    color: #D8AC6B;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+.winner-trophy:hover {
+    color: #D8AC6B;
+    cursor: pointer;
 }
