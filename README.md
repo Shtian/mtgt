@@ -7,7 +7,7 @@ Each round should be randomized and winners (best out of 3) from each match reco
 
 The project is forked from an AngularFire seed.
 
-#The MIT License (MIT)
+##The MIT License (MIT)
 
  Copyright (c) 2013 Stian Haga
 
