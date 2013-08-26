@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44871ced-b0ad-4c98-9202-add46c550090" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/app.css" afterPath="$PROJECT_DIR$/app/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/web-server.js" afterPath="$PROJECT_DIR$/app/web-server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MTGT.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377547109544" ignored="false" />
+    <file path="/index.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377547710095" ignored="false" />
     <file path="/view2.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376573810839" ignored="false" />
     <file path="/login.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376641789391" ignored="false" />
     <file path="/account.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376641688070" ignored="false" />
-    <file path="/Dummy.txt" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377543745836" ignored="false" />
+    <file path="/Dummy.txt" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377547171440" ignored="false" />
     <file path="/Procfile" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377542243452" ignored="false" />
     <file path="/view1.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376593209925" ignored="false" />
     <file path="/Home.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377546631994" ignored="false" />
@@ -74,7 +71,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="17" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
+            <state line="42" column="19" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,7 +98,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="81" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.2724679">
+            <state line="36" column="140" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.46647647">
               <folding />
             </state>
           </provider>
@@ -146,7 +143,7 @@
       <file leaf-file-name="web-server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/web-server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="84" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.0">
+            <state line="119" column="35" selection-start="3248" selection-end="3248" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -488,7 +485,11 @@
       <created>1377543747233</created>
       <updated>1377543747233</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Auto routes &quot;/&quot; to index.html. Added version info to footer.">
+      <created>1377547174596</created>
+      <updated>1377547174596</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -556,7 +557,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed working directory of web server." />
+    <option name="LAST_COMMIT_MESSAGE" value="Auto routes &quot;/&quot; to index.html. Added version info to footer." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -586,6 +587,7 @@
     <MESSAGE value="Refactored to use Angular v. 1.2. UNSTABLE D: RouteProvider-&gt;NgRoute, included route.js file in index.html." />
     <MESSAGE value="previous commit did not contain the procfile change." />
     <MESSAGE value="Changed working directory of web server." />
+    <MESSAGE value="Auto routes &quot;/&quot; to index.html. Added version info to footer." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -656,7 +658,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/web-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="84" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.0">
+        <state line="119" column="35" selection-start="3248" selection-end="3248" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -684,7 +686,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="17" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
+        <state line="42" column="19" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -698,7 +700,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="81" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.2724679">
+        <state line="36" column="140" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.46647647">
           <folding />
         </state>
       </provider>
