@@ -1,45 +1,49 @@
 <!doctype html>
 <html lang="en" ng-app="myApp">
 <head>
-  <meta charset="utf-8">
-  <title>Magic The Tournament</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/font-awesome.css">
-  <link rel="stylesheet" href="css/app.css"/>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <title>Magic The Tournament</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/app.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <header class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle Navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="#/Home" class="navbar-brand">MTG: Tournament</a>
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#/Home" class="navbar-brand">MTG: Tournament</a>
+        </div>
+        <nav class="collapse navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav pull-right">
+                <!--li><a href="#/view2">Tournaments</a></li -->
+                <li ng-hide="auth"><a href="#/login">Login</a></li>
+                <li ng-show="auth" ng-cloak><a href="#/account">Account</a></li>
+            </ul>
+        </nav>
     </div>
-    <nav class="collapse navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav pull-right">
-        <!--li><a href="#/view2">Tournaments</a></li -->
-        <li ng-hide="auth"><a href="#/login">Login</a></li>
-        <li ng-show="auth" ng-cloak><a href="#/account">Account</a></li>
-      </ul>
-    </nav>
-  </div>
 </header>
 
 <div id="content">
-  <div class="container">
+    <div class="container">
 
-    <div ng-view></div>
-    <hr>
-    <footer>
-      Hacked together by Stian Haga ©2013 <br/>
-      Licenced under The MIT License.
-    </footer>
-  </div>
+        <div ng-view></div>
+        <hr>
+        <footer>
+            <div>Hacked together by Stian Haga ©2013
+                <div class="pull-right">MTGT v0.1.1</div>
+                <br/>
+                Licenced under The MIT License.
+            </div>
+
+        </footer>
+    </div>
 
 </div>
 

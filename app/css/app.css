@@ -2,22 +2,22 @@
 @media screen and (min-device-pixel-ratio: 2) {
     /* Set the retina background */
     body {
-        background-image: url(/app/img/shattered_@2X.png);
+        background-image: url(/img/shattered_@2X.png);
     }
 
     header {
-        background-image: url(/app/img/asfalt_@2X.png)
+        background-image: url(/img/asfalt_@2X.png)
     }
 }
 
 body {
     position: relative;
     padding-top: 50px;
-    background-image: url(/app/img/shattered.png);
+    background-image: url(/img/shattered.png);
 }
 
 header {
-    background-image: url(/app/img/asfalt.png)
+    background-image: url(/img/asfalt.png)
 }
 
 p.status {

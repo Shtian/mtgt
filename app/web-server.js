@@ -41,7 +41,7 @@ function HttpServer(handlers) {
 HttpServer.prototype.start = function (port) {
     this.port = port;
     this.server.listen(port);
-    this.process.chdir('/app');
+    process.chdir(process.cwd() + '/app/')
     util.puts('Http Server running at http://localhost:' + port + '/');
 };
 
@@ -95,6 +95,9 @@ StaticServlet.prototype.handleRequest = function (req, res) {
     var parts = path.split('/');
     if (parts[parts.length - 1].charAt(0) === '.')
         return self.sendForbidden_(req, res, path);
+    if (path == './') {
+        return self.sendIndex_(req, res, path);
+    }
     fs.stat(path, function (err, stat) {
         if (err)
             return self.sendMissing_(req, res, path);
@@ -103,6 +106,14 @@ StaticServlet.prototype.handleRequest = function (req, res) {
         return self.sendFile_(req, res, path);
     });
 }
+
+StaticServlet.prototype.sendIndex_ = function (req, res, error) {
+    res.writeHead(200, {
+        'Content-Type': 'text/html'
+    });
+    var rs = fs.createReadStream('index.html');
+    rs.pipe(res);
+};
 
 StaticServlet.prototype.sendError_ = function (req, res, error) {
     res.writeHead(500, {
