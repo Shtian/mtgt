@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44871ced-b0ad-4c98-9202-add46c550090" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/app.css" afterPath="$PROJECT_DIR$/app/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MTGT.iws" />
@@ -11,12 +11,12 @@
     <file path="/view2.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376573810839" ignored="false" />
     <file path="/login.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376641789391" ignored="false" />
     <file path="/account.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376641688070" ignored="false" />
-    <file path="/Dummy.txt" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377588226876" ignored="false" />
+    <file path="/Dummy.txt" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377589338832" ignored="false" />
     <file path="/Procfile" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377542243452" ignored="false" />
     <file path="/view1.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376593209925" ignored="false" />
     <file path="/Home.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377546631994" ignored="false" />
     <file path="/a.js" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376594377687" ignored="false" />
-    <file path="/app.css" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377554280127" ignored="false" />
+    <file path="/app.css" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377592361947" ignored="false" />
     <file path="/README.md" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377553336382" ignored="false" />
     <file path="/a.dummy" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377553431952" ignored="false" />
     <file path="/test.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376667977401" ignored="false" />
@@ -87,19 +87,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="48" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0">
+            <state line="59" column="20" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.2967033">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="4" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.47940075">
+            <state line="68" column="4" selection-start="2152" selection-end="2152" vertical-scroll-proportion="-10.24">
               <folding />
             </state>
           </provider>
@@ -192,8 +192,8 @@
         <option value="$PROJECT_DIR$/app/js/directives.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/partials/TournamentView.html" />
-        <option value="$PROJECT_DIR$/app/css/app.css" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/css/app.css" />
       </list>
     </option>
   </component>
@@ -453,7 +453,11 @@
       <created>1377588230777</created>
       <updated>1377588230777</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Moved Analytics to Head for performance and better tracking.">
+      <created>1377589340807</created>
+      <updated>1377589340807</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -464,7 +468,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.80263156" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20305677" sideWeight="0.80474937" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20305677" sideWeight="0.80474937" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1477438" sideWeight="0.80263156" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32799146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -521,7 +525,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added google analytics." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved Analytics to Head for performance and better tracking." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -556,6 +560,7 @@
     <MESSAGE value="Added magic icons directory, added to header. Moved favicon." />
     <MESSAGE value="Fixed margins on match-wrappers." />
     <MESSAGE value="Added google analytics." />
+    <MESSAGE value="Moved Analytics to Head for performance and better tracking." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -622,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/img/MTGBlack.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -648,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="48" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/TournamentView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="136" selection-start="1038" selection-end="1038" vertical-scroll-proportion="-15.36">
@@ -664,7 +655,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="4" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.47940075">
+        <state line="68" column="4" selection-start="2152" selection-end="2152" vertical-scroll-proportion="-10.24">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="26" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="20" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.2967033">
           <folding />
         </state>
       </provider>
