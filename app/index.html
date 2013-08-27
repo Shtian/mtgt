@@ -1,55 +1,71 @@
 <!doctype html>
 <html lang="en" ng-app="myApp">
 <head>
-    <meta charset="utf-8">
-    <title>Magic The Tournament</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/app.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <title>Magic The Tournament</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/app.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <header class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle Navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="#/Home" class="navbar-brand">MTG: Tournament</a>
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#/Home" class="navbar-brand">MTG: Tournament</a>
 
-        </div>
-        <div magic-icons></div>
-        <nav class="collapse navbar-collapse" role="navigation">
-            <ul class="nav navbar-nav pull-right">
-                <!--li><a href="#/view2">Tournaments</a></li -->
-                <li ng-hide="auth"><a href="#/login">Login</a></li>
-                <li ng-show="auth" ng-cloak><a href="#/account">Account</a></li>
-            </ul>
-        </nav>
     </div>
+    <div magic-icons></div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav pull-right">
+        <!--li><a href="#/view2">Tournaments</a></li -->
+        <li ng-hide="auth"><a href="#/login">Login</a></li>
+        <li ng-show="auth" ng-cloak><a href="#/account">Account</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <div id="content">
-    <div class="container">
+  <div class="container">
 
-        <div ng-view></div>
-        <hr>
-        <footer>
-            <div class="pull-left">
-                Hacked together by Stian Haga ©2013
-                <br/>
-                Licenced under <a href="https://github.com/Shtian/mtgt/blob/master/README.md">The MIT License</a>.
-            </div>
-            <div class="pull-right">MTGT v0.1.1</div>
+    <div ng-view></div>
+    <hr>
+    <footer>
+      <div class="pull-left">
+        Hacked together by Stian Haga ©2013
+        <br/>
+        Licenced under <a href="https://github.com/Shtian/mtgt/blob/master/README.md">The MIT License</a>.
+      </div>
+      <div class="pull-right">MTGT v0.1.1</div>
 
-        </footer>
-    </div>
+    </footer>
+  </div>
 
 </div>
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
+  ga('create', 'UA-43520149-1', 'mtgt.herokuapp.com');
+  ga('send', 'pageview');
+
+</script>
 <script src="http://static.firebase.com/v0/firebase.js"></script>
 <script src="https://cdn.firebase.com/v0/firebase-simple-login.js"></script>
 <script src="lib/angular/angular.js"></script>
