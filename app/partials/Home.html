@@ -1,8 +1,37 @@
-<h2>Tournament Overview</h2>
 <div ng-controller="HomeCtrl">
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Create, Manage and Battle!</h1>
+      <p class="lead">
+        <strong>Create</strong> and <strong>manage</strong> your own <a href="www.wizards.com/magic/‎">Magic</a> tournaments, then <strong>battle</strong> it out without
+        losing your self to confusion! Enter a tournament name and all participants in the form below, or manage an
+        existing tournament. Tournaments currently support an All-Play-All arrangement.
+      </p>
+      <a class="btn btn-primary btn-lg" a href="#/login">Get started »</a>
+    </div>
+  </div>
   <div class="row">
-    <div class="col-lg-4">
-      <h3>New Tournament</h3>
+    <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-4 text-center">
+        <i class="icon-plus icon-3x"></i>
+        <p>Create</p>
+      </div>
+      <div class="col-lg-4 text-center">
+        <i class="icon-cogs icon-3x"></i>
+        <p>Manage</p>
+      </div>
+      <div class="col-lg-4 text-center">
+        <i class="icon-bolt icon-3x"></i>
+        <p>Battle</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-lg-offset-2">
+      <h2>Create</h2>
+      <p>Fill in a tournament name and all participating players to get started! A tournament requires at least 3
+        players.
+      </p>
       <fieldset>
         <div class="form-group">
           <input type="text" class="form-control" ng-model="newTournamentName" placeholder="Tournament Name">
@@ -20,16 +49,18 @@
         <ul class="list-group">
           <li class="list-group-item" ng-repeat="player in players | orderBy:'name'">
             <span class="player-list-item">{{ player.name }}</span>
-            <a class="remove-player-item" ng-click="removePlayer($index)"><i class="icon-remove-circle icon-large"></i></a>
+            <a class="remove-player-item" ng-click="removePlayer($index)"><i class="icon-remove-circle icon-large"></i>
+            </a>
           </li>
         </ul>
-        <!-- /input-group -->
-
-        <button ng-click="createTournament()" class="btn btn-primary" type="button" ng-disabled="disableCreation()">Create Tournament!</button>
+        <button ng-click="createTournament()"
+                class="btn btn-primary" type="button"
+                ng-disabled="disableCreation()">Create Tournament »</button>
       </fieldset>
     </div>
     <div class="col-lg-4">
-           <h3>All tournaments</h3>
+      <h2>Manage</h2>
+      <p>Manage existing tournaments by clicking on one of the links below</p>
       <div class="list-group">
         <a class="list-group-item" ng-repeat="tournament in tournaments | orderBy:'title'" href="#/tournament/{{ tournament.$id }}">
           {{ tournament.title }}<i class="icon-arrow-right icon-large pull-right"></i>
