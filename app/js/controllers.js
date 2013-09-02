@@ -3,6 +3,10 @@
 /* Controllers */
 
 angular.module('myApp.controllers', [])
+    .controller('HeaderCtrl', ['$scope', 'loginService', '$location', function ($scope, loginService, $location) {
+        $scope.navTitle = "MTG: Tournament";
+    }])
+
     .controller('LoginCtrl', ['$scope', 'loginService', function ($scope, loginService) {
         $scope.email = null;
         $scope.pass = null;
@@ -11,7 +15,7 @@ angular.module('myApp.controllers', [])
 
         $scope.login = function (callback) {
             $scope.err = null;
-            loginService.login($scope.email, $scope.pass, '/account', function (err, user) {
+            loginService.login($scope.email, $scope.pass, '/tournament', function (err, user) {
                 $scope.err = err || null;
                 typeof(callback) === 'function' && callback(err, user);
             });

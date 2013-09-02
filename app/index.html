@@ -26,7 +26,7 @@
     </script>
 </head>
 <body>
-<header class="navbar navbar-inverse navbar-fixed-top">
+<header class="navbar navbar-inverse navbar-fixed-top" ng-controller="HeaderCtrl">
     <div class="container">
         <div class="navbar-header">
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
@@ -41,7 +41,7 @@
         <div magic-icons></div>
         <nav class="collapse navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
-                <li class="active" ng-show="auth" ng-cloak><a href="#/tournament">Tournaments</a></li>
+                <li ng-show="auth" ng-cloak><a href="#/tournament">Tournaments</a></li>
             </ul>
             <ul class="nav navbar-nav pull-right">
                 <li ng-hide="auth"><a href="#/login">Log in</a></li>
@@ -62,7 +62,7 @@
                 <br/>
                 Licenced under <a href="https://github.com/Shtian/mtgt/blob/master/README.md">The MIT License</a>.
             </div>
-            <div class="pull-right">MTGT v0.1.1</div>
+            <div class="pull-right">MTGT v0.2.0</div>
 
         </footer>
     </div>
