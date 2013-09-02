@@ -1,24 +1,25 @@
 <div class="container" ng-cloak>
 
 
-  <div class="col-lg-offset-4 col-lg-4">
-    <h2>Please log in</h2>
+    <div class="col-lg-offset-4 col-lg-4">
+        <h2>Please log in</h2>
 
-    <form>
-      <div class="form-group">
-        <input class="form-control" type="text" ng-model="email" placeholder="Email Address"/>
-      </div>
-      <div class="form-group">
-        <input class="form-control" type="password" ng-model="pass" placeholder="Password"/>
-      </div>
-      <div class="form-group" ng-cloak ng-show="createMode">
-        <input type="password" ng-model="confirm" class="form-control" placeholder="Confirm Password"/>
-      </div>
-      <button class="btn btn-primary" ng-click="login()" ng-hide="createMode">Log In</button>
-      <button class="btn btn-primary" ng-click="createMode = true" ng-hide="createMode">Create Account</button>
-      <button class="btn btn-primary" ng-cloak ng-show="createMode" ng-click="createAccount()">Ready to Create</button>
+        <form>
+            <div class="form-group">
+                <input class="form-control" type="text" ng-model="email" placeholder="Email Address"/>
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="password" ng-model="pass" placeholder="Password"/>
+            </div>
+            <div class="form-group" ng-cloak ng-show="createMode">
+                <input type="password" ng-model="confirm" class="form-control" placeholder="Confirm Password"/>
+            </div>
+            <button class="btn btn-primary" ng-click="login()" ng-hide="createMode">Log In</button>
+            <button class="btn btn-primary" ng-click="createMode = true" ng-hide="createMode">Create Account</button>
+            <button class="btn btn-primary" ng-cloak ng-show="createMode" ng-click="createAccount()">Ready to Create
+            </button>
 
-      <p ng-show="err" class="error">{{err}}</p>
-    </form>
-  </div>
+            <p ng-show="err" class="error">{{err}}</p>
+        </form>
+    </div>
 </div>
