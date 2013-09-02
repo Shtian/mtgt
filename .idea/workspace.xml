@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44871ced-b0ad-4c98-9202-add46c550090" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/app.css" afterPath="$PROJECT_DIR$/app/css/app.css" />
+    <list default="true" id="44871ced-b0ad-4c98-9202-add46c550090" name="Default" comment="Tournament content is put behind authorization.">
+      <change type="DELETED" beforePath="D:\projects\mtgt\app\index-async.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\mtgt\app\partials\view2.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/Home.html" afterPath="$PROJECT_DIR$/app/partials/Home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/TournamentView.html" afterPath="$PROJECT_DIR$/app/partials/TournamentView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\projects\mtgt\app\partials\TournamentView.html" afterPath="$PROJECT_DIR$/app/partials/TournamentDetailsView.html" />
     </list>
     <ignored path="MTGT.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377551852627" ignored="false" />
+    <file path="/index.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1378146441629" ignored="false" />
     <file path="/view2.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376573810839" ignored="false" />
     <file path="/login.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376641789391" ignored="false" />
     <file path="/account.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376641688070" ignored="false" />
-    <file path="/Dummy.txt" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377589338832" ignored="false" />
+    <file path="/Dummy.txt" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1378146822708" ignored="false" />
     <file path="/Procfile" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377542243452" ignored="false" />
     <file path="/view1.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376593209925" ignored="false" />
-    <file path="/Home.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377546631994" ignored="false" />
+    <file path="/Home.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1378146079677" ignored="false" />
     <file path="/a.js" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376594377687" ignored="false" />
-    <file path="/app.css" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377592361947" ignored="false" />
+    <file path="/app.css" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377554280127" ignored="false" />
     <file path="/README.md" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377553336382" ignored="false" />
-    <file path="/a.dummy" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377553431952" ignored="false" />
+    <file path="/a.dummy" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1378144519024" ignored="false" />
     <file path="/test.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376667977401" ignored="false" />
-    <file path="/TournamentView.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377548593116" ignored="false" />
-    <file path="/app.js" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377521156226" ignored="false" />
+    <file path="/TournamentView.html" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1378144929698" ignored="false" />
+    <file path="/app.js" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1378144388045" ignored="false" />
     <file path="/controllers.js" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377499870450" ignored="false" />
     <file path="/services.js" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1376685854547" ignored="false" />
     <file path="/karma.conf.js" changelist="44871ced-b0ad-4c98-9202-add46c550090" time="1377296898897" ignored="false" />
@@ -63,8 +70,15 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="26" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="20" column="64" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1422#1490#0" expanded="false" />
+                <element signature="e#1524#2647#0" expanded="false" />
+                <element signature="e#2684#6586#0" expanded="false" />
+                <element signature="e#3073#4640#0" expanded="false" />
+                <element signature="e#4747#5493#0" expanded="false" />
+                <element signature="e#6630#9794#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +86,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="71" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+            <state line="13" column="11" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,7 +95,16 @@
       <file leaf-file-name="TournamentView.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/TournamentView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="136" selection-start="1038" selection-end="1038" vertical-scroll-proportion="-15.36">
+            <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TournamentDetailsView.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/partials/TournamentDetailsView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="26" selection-start="264" selection-end="264" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
@@ -90,7 +113,7 @@
       <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="20" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.2967033">
+            <state line="98" column="15" selection-start="1780" selection-end="1780" vertical-scroll-proportion="2.2916093">
               <folding />
             </state>
           </provider>
@@ -99,7 +122,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="4" selection-start="2152" selection-end="2152" vertical-scroll-proportion="-10.24">
+            <state line="37" column="24" selection-start="1349" selection-end="1349" vertical-scroll-proportion="-8.5">
               <folding />
             </state>
           </provider>
@@ -114,19 +137,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="59" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/Home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="29" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+            <state line="8" column="20" selection-start="449" selection-end="449" vertical-scroll-proportion="-5.230769">
               <folding />
             </state>
           </provider>
@@ -135,7 +149,7 @@
       <file leaf-file-name="Procfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="92" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+            <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,7 +180,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="9ca4c98" />
       </map>
     </option>
   </component>
@@ -181,27 +195,27 @@
         <option value="$PROJECT_DIR$/test/unit/configSpec.js" />
         <option value="$PROJECT_DIR$/config/karma.conf.js" />
         <option value="$PROJECT_DIR$/test/unit/HomeCtrlSpec.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers.js" />
         <option value="$PROJECT_DIR$/app/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/app/lib/angular/version.txt" />
         <option value="$PROJECT_DIR$/test/lib/angular/angular-scenario.js" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/app/web-server.js" />
-        <option value="$PROJECT_DIR$/app/js/app.js" />
-        <option value="$PROJECT_DIR$/app/partials/Home.html" />
         <option value="$PROJECT_DIR$/app/js/directives.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/app/partials/TournamentView.html" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/css/app.css" />
+        <option value="$PROJECT_DIR$/app/js/app.js" />
+        <option value="$PROJECT_DIR$/app/partials/TournamentView.html" />
+        <option value="$PROJECT_DIR$/app/js/controllers.js" />
+        <option value="$PROJECT_DIR$/app/partials/Home.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
-    <option name="y" value="22" />
-    <option name="width" value="1397" />
-    <option name="height" value="878" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -253,6 +267,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MTGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtgt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MTGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtgt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MTGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtgt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MTGT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mtgt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -261,14 +335,25 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.sourceCode.General" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/web-server.js" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="6120de13-618d-495a-940a-ba3644b9ee0f">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -276,7 +361,7 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.MagicNodeConfig">
+  <component name="RunManager" selected="Node.js.windowsNode">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -292,10 +377,6 @@
       <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
-      <node-js-remote-debug />
-      <method />
-    </configuration>
     <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
       <setting name="nodePath" value="/usr/local/bin/node" />
       <envs />
@@ -304,6 +385,10 @@
       <setting name="workingDirectory" value="$PROJECT_DIR$" />
       <setting name="testType" value="JS_FILE" />
       <setting name="jsFile" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="../scripts/web-server.js" working-dir="$PROJECT_DIR$/app">
@@ -316,7 +401,7 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="false" name="MagicNodeConfig" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="app/web-server.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="MagicNodeConfig" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="web-server.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
@@ -449,35 +534,31 @@
       <created>1377554100636</created>
       <updated>1377554100636</updated>
     </task>
-    <task id="LOCAL-00021" summary="Added google analytics.">
-      <created>1377588230777</created>
-      <updated>1377588230777</updated>
+    <task id="LOCAL-00021" summary="Header magic icons hidden when width is less than 768px.">
+      <created>1377554310996</created>
+      <updated>1377554310996</updated>
     </task>
-    <task id="LOCAL-00022" summary="Moved Analytics to Head for performance and better tracking.">
-      <created>1377589340807</created>
-      <updated>1377589340807</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="22" width="1397" height="878" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32799146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.80263156" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20305677" sideWeight="0.80474937" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20347917" sideWeight="0.80448717" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1477438" sideWeight="0.80263156" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32799146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19525066" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19551282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32799146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39957264" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -525,7 +606,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved Analytics to Head for performance and better tracking." />
+    <option name="LAST_COMMIT_MESSAGE" value="Header magic icons hidden when width is less than 768px." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -559,39 +640,27 @@
     <MESSAGE value="Floating divs in footer. Not sure if responsive, or just float hell." />
     <MESSAGE value="Added magic icons directory, added to header. Moved favicon." />
     <MESSAGE value="Fixed margins on match-wrappers." />
-    <MESSAGE value="Added google analytics." />
-    <MESSAGE value="Moved Analytics to Head for performance and better tracking." />
+    <MESSAGE value="Header magic icons hidden when width is less than 768px." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/partials/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5158" column="15" selection-start="94676" selection-end="94687" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5158" column="15" selection-start="94676" selection-end="94687" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/firebase/angularFire.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="387" column="57" selection-start="13106" selection-end="13106" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="387" column="57" selection-start="13106" selection-end="13106" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/lib/angular/angular-scenario.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10842" column="28" selection-start="294369" selection-end="294369" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10842" column="28" selection-start="294369" selection-end="294369" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/lib/angular/angular.js">
@@ -601,7 +670,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="92" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -613,23 +682,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/Home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="71" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/img/MTGBlack.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="59" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/directives.js">
@@ -639,37 +699,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="59" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/TournamentView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="136" selection-start="1038" selection-end="1038" vertical-scroll-proportion="-15.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="4" selection-start="2152" selection-end="2152" vertical-scroll-proportion="-10.24">
+        <state line="13" column="11" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
+        <state line="20" column="64" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1422#1490#0" expanded="false" />
+            <element signature="e#1524#2647#0" expanded="false" />
+            <element signature="e#2684#6586#0" expanded="false" />
+            <element signature="e#3073#4640#0" expanded="false" />
+            <element signature="e#4747#5493#0" expanded="false" />
+            <element signature="e#6630#9794#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="449" selection-end="449" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/TournamentView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/TournamentDetailsView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="26" selection-start="264" selection-end="264" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="24" selection-start="1349" selection-end="1349" vertical-scroll-proportion="-8.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="20" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.2967033">
+        <state line="98" column="15" selection-start="1780" selection-end="1780" vertical-scroll-proportion="2.2916093">
           <folding />
         </state>
       </provider>

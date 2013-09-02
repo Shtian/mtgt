@@ -8,9 +8,19 @@ angular.module('myApp',
     // configure views; note the authRequired parameter for authenticated pages
     .config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
 
-        $routeProvider.when('/view2', {
-            templateUrl: 'partials/view2.html',
-            controller: 'MyCtrl2'
+        $routeProvider.when('/Home', {
+            templateUrl: 'partials/Home.html',
+            controller: 'HomeCtrl'
+        });
+
+        $routeProvider.when('/login', {
+            templateUrl: 'partials/Login.html',
+            controller: 'LoginCtrl'
+        });
+
+        $routeProvider.when('/tournament', {
+            templateUrl: 'partials/TournamentView.html',
+            controller: 'TournamentCtrl'
         });
 
         $routeProvider.when('/account', {
@@ -19,19 +29,10 @@ angular.module('myApp',
             controller: 'AccountCtrl'
         });
 
-        $routeProvider.when('/login', {
-            templateUrl: 'partials/Login.html',
-            controller: 'LoginCtrl'
-        });
-
         $routeProvider.when('/tournament/:tournamentId', {
-            templateUrl: 'partials/TournamentView.html',
-            controller: 'TournamentCtrl'
-        });
-
-        $routeProvider.when('/Home', {
-            templateUrl: 'partials/Home.html',
-            controller: 'HomeCtrl'
+            authRequired: true,
+            templateUrl: 'partials/TournamentDetailsView.html',
+            controller: 'TournamentDetailsCtrl'
         });
 
         $routeProvider.otherwise({redirectTo: '/Home'});
