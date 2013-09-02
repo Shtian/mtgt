@@ -10,6 +10,11 @@
     }
 }
 
+html {
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+}
+
 body {
     position: relative;
     padding-top: 50px;
