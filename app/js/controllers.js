@@ -264,8 +264,8 @@ angular.module('myApp.controllers', [])
                                         break;
                                     }
                                 }
-                                for (var i = 0; i < $scope.players.length; i++) {
-                                    if ($scope.remote.players[i].name == playerName) {
+                              for (var i = 0; i < $scope.remote.players.length; i++) {
+                                if ($scope.remote.players[i].name == playerName) {
                                         $scope.remote.players[i].score++;
                                         match.winner = playerName;
                                         $scope.remote.roundData.numberOfMatchesPlayed++;
