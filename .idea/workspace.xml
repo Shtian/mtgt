@@ -4,7 +4,6 @@
     <list default="true" id="44871ced-b0ad-4c98-9202-add46c550090" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/TournamentDetailsView.html" afterPath="$PROJECT_DIR$/app/partials/TournamentDetailsView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/app.css" afterPath="$PROJECT_DIR$/app/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MTGT.iws" />
@@ -36,10 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="266" column="70" selection-start="11099" selection-end="11099" vertical-scroll-proportion="0.45070422" vertical-offset="4000" max-vertical-offset="4608">
+            <state line="266" column="68" selection-start="11097" selection-end="11097" vertical-scroll-proportion="0.0" vertical-offset="2557" max-vertical-offset="4608">
               <folding />
             </state>
           </provider>
@@ -48,7 +47,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="90" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="928">
+            <state line="38" column="90" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="928">
               <folding />
             </state>
           </provider>
@@ -57,7 +56,7 @@
       <file leaf-file-name="TournamentView.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/TournamentView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="136" selection-start="1906" selection-end="1906" vertical-scroll-proportion="-12.92" vertical-offset="285" max-vertical-offset="992">
+            <state line="38" column="136" selection-start="1906" selection-end="1906" vertical-scroll-proportion="-24.32" vertical-offset="0" max-vertical-offset="992">
               <folding />
             </state>
           </provider>
@@ -66,10 +65,8 @@
       <file leaf-file-name="karma.conf.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/karma.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="29" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1264">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="19" column="29" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1264">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,7 +83,7 @@
       <file leaf-file-name="security-rules.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/security-rules.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="28" selection-start="215" selection-end="215" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="720">
+            <state line="8" column="28" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -95,7 +92,7 @@
       <file leaf-file-name="directives.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="35" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
+            <state line="13" column="35" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="368">
               <folding />
             </state>
           </provider>
@@ -110,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TournamentDetailsView.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TournamentDetailsView.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/partials/TournamentDetailsView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="23" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1088">
+            <state line="44" column="57" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.40827337" vertical-offset="477" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -122,7 +119,7 @@
       <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="42" selection-start="2331" selection-end="2331" vertical-scroll-proportion="0.0" vertical-offset="1872" max-vertical-offset="3776">
+            <state line="215" column="13" selection-start="4119" selection-end="4119" vertical-scroll-proportion="0.0" vertical-offset="3048" max-vertical-offset="3888">
               <folding />
             </state>
           </provider>
@@ -169,9 +166,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/partials/TournamentView.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/js/controllers.js" />
         <option value="$PROJECT_DIR$/app/css/app.css" />
         <option value="$PROJECT_DIR$/app/partials/TournamentDetailsView.html" />
-        <option value="$PROJECT_DIR$/app/js/controllers.js" />
       </list>
     </option>
   </component>
@@ -223,6 +220,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,20 +327,19 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/web-server.js" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/web-server.js" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -351,6 +348,14 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.MagicNodeConfig">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -361,23 +366,19 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
-      <setting name="configLocationType" value="CONFIG_FILE" />
-      <setting name="settingsFile" value="" />
-      <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="CHROME" />
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
       <method />
     </configuration>
     <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
@@ -388,10 +389,6 @@
       <setting name="workingDirectory" value="$PROJECT_DIR$" />
       <setting name="testType" value="JS_FILE" />
       <setting name="jsFile" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
-      <node-js-remote-debug />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -546,7 +543,11 @@
       <created>1377589340807</created>
       <updated>1377589340807</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Fixed bug with setting winner of match, when it had already been set.">
+      <created>1381244779253</created>
+      <updated>1381244779253</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -603,7 +604,8 @@
     <MESSAGE value="Fixed margins on match-wrappers." />
     <MESSAGE value="Added google analytics." />
     <MESSAGE value="Moved Analytics to Head for performance and better tracking." />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved Analytics to Head for performance and better tracking." />
+    <MESSAGE value="Fixed bug with setting winner of match, when it had already been set." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug with setting winner of match, when it had already been set." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -617,16 +619,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/web-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="35" selection-start="3248" selection-end="3248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="119" column="35" selection-start="3248" selection-end="3248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/Home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="4" column="29" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/MTGBlack.png">
@@ -641,23 +639,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="4" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="42" selection-start="2331" selection-end="2331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/TournamentDetailsView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1088">
-          <folding />
-        </state>
+        <state line="71" column="4" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/app.js">
@@ -667,19 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/TournamentView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="136" selection-start="1906" selection-end="1906" vertical-scroll-proportion="-12.92" vertical-offset="285" max-vertical-offset="992">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="29" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1264">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -692,7 +665,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/security-rules.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="215" selection-end="215" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="720">
+        <state line="8" column="28" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
@@ -713,7 +686,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="266" column="70" selection-start="11099" selection-end="11099" vertical-scroll-proportion="0.45070422" vertical-offset="4000" max-vertical-offset="4608">
+        <state line="266" column="68" selection-start="11097" selection-end="11097" vertical-scroll-proportion="0.0" vertical-offset="2557" max-vertical-offset="4608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="13" selection-start="4119" selection-end="4119" vertical-scroll-proportion="0.0" vertical-offset="3048" max-vertical-offset="3888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/TournamentView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="136" selection-start="1906" selection-end="1906" vertical-scroll-proportion="-24.32" vertical-offset="0" max-vertical-offset="992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/TournamentDetailsView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="57" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.40827337" vertical-offset="477" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>

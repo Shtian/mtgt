@@ -42,7 +42,38 @@ p.status.good, p.good {
 }
 
 /* ANIMATIONS */
-@-webkit-keyframes rotate {
+
+.perspective-wrapper {
+    position: relative;
+    -moz-perspective: 800px;
+    -webkit-perspective: 800px;
+    -o-perspective: 800px;
+    -ms-perspective: 800px;
+    perspective: 800px;
+}
+
+.rotate {
+    -webkit-transform: rotateY(10deg);
+    -moz-transform: rotateY(10deg);
+    -ms-transform: rotateY(10deg);
+    -o-transform: rotateY(10deg);
+    transform: rotateY(10deg);
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    -ms-transition: -ms-transform 1s;
+    transition: transform 1s;
+}
+
+.rotate:hover {
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    -ms-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    -o-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+
+@-webkit-keyframes rotation {
     from {
         -webkit-transform: rotate(0deg);
     }
@@ -51,7 +82,7 @@ p.status.good, p.good {
     }
 }
 
-@-moz-keyframes rotate {
+@-moz-keyframes rotation {
     from {
         -moz-transform: rotate(0deg);
     }
@@ -91,11 +122,11 @@ p.status.good, p.good {
 }
 
 .magic-icons img:hover {
-    -webkit-animation-name: rotate;
+    -webkit-animation-name: rotation;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-    -moz-animation-name: rotate;
+    -moz-animation-name: rotation;
     -moz-animation-duration: 2s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
@@ -175,6 +206,13 @@ p.status.good, p.good {
     background-color: #ccc;
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
     background-size: 50px 50px;
+}
+
+.match-complete {
+    color: rgb(4, 145, 4);
+    position: absolute;
+    left: 20px;
+    top: 2px;
 }
 
 .winner-trophy {
