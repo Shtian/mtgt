@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44871ced-b0ad-4c98-9202-add46c550090" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/TournamentView.html" afterPath="$PROJECT_DIR$/app/partials/TournamentView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/Home.html" afterPath="$PROJECT_DIR$/app/partials/Home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MTGT.iws" />
@@ -47,16 +46,7 @@
       <file leaf-file-name="TournamentView.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/TournamentView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="96" selection-start="2232" selection-end="2232" vertical-scroll-proportion="-12.0" vertical-offset="436" max-vertical-offset="992">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="karma.conf.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/karma.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="29" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1264">
+            <state line="46" column="94" selection-start="2230" selection-end="2230" vertical-scroll-proportion="-0.0" vertical-offset="736" max-vertical-offset="992">
               <folding />
             </state>
           </provider>
@@ -80,10 +70,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="47" selection-start="2476" selection-end="2476" vertical-scroll-proportion="0.5557554" vertical-offset="715" max-vertical-offset="1456">
+            <state line="64" column="45" selection-start="2474" selection-end="2474" vertical-scroll-proportion="-40.96" vertical-offset="0" max-vertical-offset="1456">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/partials/Home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="93" selection-start="262" selection-end="262" vertical-scroll-proportion="0.17266187" vertical-offset="0" max-vertical-offset="624">
               <folding />
             </state>
           </provider>
@@ -161,7 +160,6 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/app/web-server.js" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
-        <option value="$PROJECT_DIR$/app/partials/Home.html" />
         <option value="$PROJECT_DIR$/app/js/directives.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
@@ -169,6 +167,7 @@
         <option value="$PROJECT_DIR$/app/partials/TournamentDetailsView.html" />
         <option value="$PROJECT_DIR$/app/partials/TournamentView.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/partials/Home.html" />
       </list>
     </option>
   </component>
@@ -281,11 +280,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firebase" />
+              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -551,7 +546,11 @@
       <created>1381328057197</created>
       <updated>1381328057197</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Matches in the tournament view are sorted by date now.">
+      <created>1381330654679</created>
+      <updated>1381330654679</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -610,7 +609,8 @@
     <MESSAGE value="Moved Analytics to Head for performance and better tracking." />
     <MESSAGE value="Fixed bug with setting winner of match, when it had already been set." />
     <MESSAGE value="Matches now show a checkmark if there is a winner. Should be easier to see which matches are complete now." />
-    <option name="LAST_COMMIT_MESSAGE" value="Matches now show a checkmark if there is a winner. Should be easier to see which matches are complete now." />
+    <MESSAGE value="Matches in the tournament view are sorted by date now." />
+    <option name="LAST_COMMIT_MESSAGE" value="Matches in the tournament view are sorted by date now." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -625,11 +625,6 @@
     <entry file="file://$PROJECT_DIR$/app/web-server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="119" column="35" selection-start="3248" selection-end="3248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/Home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/MTGBlack.png">
@@ -700,7 +695,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/TournamentView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="96" selection-start="2232" selection-end="2232" vertical-scroll-proportion="-12.0" vertical-offset="436" max-vertical-offset="992">
+        <state line="46" column="94" selection-start="2230" selection-end="2230" vertical-scroll-proportion="-0.0" vertical-offset="736" max-vertical-offset="992">
           <folding />
         </state>
       </provider>
@@ -714,7 +709,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="47" selection-start="2476" selection-end="2476" vertical-scroll-proportion="0.5557554" vertical-offset="715" max-vertical-offset="1456">
+        <state line="64" column="45" selection-start="2474" selection-end="2474" vertical-scroll-proportion="-40.96" vertical-offset="0" max-vertical-offset="1456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="93" selection-start="262" selection-end="262" vertical-scroll-proportion="0.17266187" vertical-offset="0" max-vertical-offset="624">
           <folding />
         </state>
       </provider>
