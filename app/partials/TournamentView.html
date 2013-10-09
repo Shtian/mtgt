@@ -44,8 +44,8 @@
                 <p>Manage existing tournaments by clicking on one of the links below:</p>
 
                 <div class="list-group">
-                    <a class="list-group-item" ng-repeat="tournament in tournaments | orderBy:'title'"
-                       href="#/tournament/{{ tournament.$id }}">
+                  <a class="list-group-item" ng-repeat="tournament in tournaments | orderBy:'-date'"
+                     href="#/tournament/{{ tournament.$id }}">
                         {{ tournament.title }} <span class="pull-right">{{ tournament.date | date:'dd-MM-yyyy' }} <i
                             class="icon-arrow-right icon-large"></i></span>
                     </a>
