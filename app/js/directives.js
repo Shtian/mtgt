@@ -3,8 +3,9 @@
 /* Directives */
 
 
-angular.module('components', []).directive('magicIcons', function () {
-    return {
+angular.module('components', [])
+    .directive('magicIcons', function () {
+      return {
         restrict: "A",
         template: "<div class='magic-icons'>" +
             "<img src='/img/MTGWhite.png' />" +
@@ -14,5 +15,17 @@ angular.module('components', []).directive('magicIcons', function () {
             "<img src='/img/MTGBlue.png' />" +
             "</div>",
         replace: true
-    }
-});
+      }
+    })
+    .directive('autoComplete', function () {
+      return {
+        restrict: "A",
+        replace: false,
+        transclude: true,
+        template: "<div class='autocomplete'>" +
+            "</div>",
+        controller: ["$scope", "$element", "$attrs", "$transclude",
+          function ($scope, $element, $attrs, $transclude) {
+          }]
+      }
+    });

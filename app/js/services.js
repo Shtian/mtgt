@@ -68,10 +68,11 @@
          }])
 
       .factory('profileCreator', ['Firebase', 'FBURL', '$rootScope', function(Firebase, FBURL, $rootScope) {
-         return function(id, email, callback) {
-            new Firebase(FBURL).child('users/'+id).set({email: email, name: firstPartOfEmail(email)}, function(err) {
-               //err && console.error(err);
-               if( callback ) {
+         return function (id, email, username, callback) {
+           new Firebase(FBURL).child('users/' + id).set({email: email, name: username}, function (err) {
+
+             //err && console.error(err);
+             if( callback ) {
                   callback(err);
                   $rootScope.$apply();
                }

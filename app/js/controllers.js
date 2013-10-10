@@ -10,8 +10,9 @@ angular.module('myApp.controllers', [])
     .controller('LoginCtrl', ['$scope', 'loginService', function ($scope, loginService) {
         $scope.email = null;
         $scope.pass = null;
-        $scope.confirm = null;
-        $scope.createMode = false;
+      $scope.username = null;
+      $scope.confirm = null;
+      $scope.createMode = false;
 
         $scope.login = function (callback) {
             $scope.err = null;
@@ -23,8 +24,9 @@ angular.module('myApp.controllers', [])
 
 
         $scope.createAccount = function () {
-            if (!$scope.email) {
-                $scope.err = 'Please enter an email address';
+          console.log(" 1 " + $scope.username);
+          if (!$scope.email) {
+            $scope.err = 'Please enter an email address';
             }
             else if (!$scope.pass) {
                 $scope.err = 'Please enter a password';
@@ -32,8 +34,11 @@ angular.module('myApp.controllers', [])
             else if ($scope.pass !== $scope.confirm) {
                 $scope.err = 'Passwords do not match';
             }
-            else {
-                loginService.createAccount($scope.email, $scope.pass, function (err, user) {
+          else if (!$scope.username) {
+            $scope.err = 'Please enter a username';
+          }
+          else {
+            loginService.createAccount($scope.email, $scope.pass, function (err, user) {
                     if (err) {
                         $scope.err = err;
                     }
@@ -41,7 +46,8 @@ angular.module('myApp.controllers', [])
                         // must be logged in before I can write to my profile
                         $scope.login(function (err) {
                             if (!err) {
-                                loginService.createProfile(user.id, user.email);
+
+                              loginService.createProfile(user.id, user.email, $scope.username);
                             }
                         });
                     }
@@ -101,10 +107,10 @@ angular.module('myApp.controllers', [])
 
     .controller('TournamentCtrl', ['$scope', '$location', 'angularFireCollection', 'FBURL', '$timeout',
         function TournamentCtrl($scope, $location, angularFireCollection, FBURL, $timeout) {
+          $scope.users = angularFireCollection(FBURL + '/users', $scope, 'users');
+          $scope.tournaments = angularFireCollection(FBURL + '/tournaments', $scope, 'tournaments');
 
-            $scope.tournaments = angularFireCollection(FBURL + '/tournaments', $scope, 'tournaments');
-
-            /* Generates a round robin tournament arrangement of matches. All play all. */
+          /* Generates a round robin tournament arrangement of matches. All play all. */
             function ArrangeRounds(players) {
                 var dummyPlayer = players.length % 2;
                 if (players.length % 2) {

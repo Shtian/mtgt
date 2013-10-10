@@ -1,57 +1,58 @@
 <div ng-controller="TournamentCtrl">
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="col-lg-9"><h2>Create</h2>
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="col-lg-9"><h2>Create</h2>
 
-                <p>Fill in a tournament name and all participating players to get started! A tournament requires at
-                    least 3
-                    players.
-                </p>
-                <fieldset>
-                    <div class="form-group">
-                        <input type="text" class="form-control" ng-model="newTournamentName"
-                               placeholder="Tournament Name">
-                    </div>
-                    <form ng-submit="addPlayer()">
-                        <div class="form-group">
-                            <div class="input-group">
-                                <input type="text" class="form-control" ng-model="newPlayerName"
-                                       placeholder="Player Name">
+        <p>Fill in a tournament name and all participating players to get started! A tournament requires at
+          least 3
+          players.
+        </p>
+        <fieldset>
+          <div class="form-group">
+            <input type="text" class="form-control" ng-model="newTournamentName"
+                   placeholder="Tournament Name">
+          </div>
+          <form ng-submit="addPlayer()">
+            <div class="form-group">
+              <div class="input-group">
+                <input type="text" class="form-control" ng-model="newPlayerName"
+                       placeholder="Player Name"
+                       typeahead="user.name for user in users | filter:$viewValue | limitTo:8">
           <span class="input-group-btn">
             <button class="btn btn-default" type="submit">Add Player</button>
           </span>
-                            </div>
-                        </div>
-                    </form>
-                    <ul class="list-group">
-                        <li class="list-group-item" ng-repeat="player in players | orderBy:'name'">
-                            <span class="player-list-item">{{ player.name }}</span>
-                            <a class="remove-player-item" ng-click="removePlayer($index)"><i
-                                    class="icon-remove-circle icon-large"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <button ng-click="createTournament()"
-                            class="btn btn-primary" type="button"
-                            ng-disabled="disableCreation()">Create Tournament »
-                    </button>
-                </fieldset>
+              </div>
             </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="col-lg-9"><h2>Manage</h2>
-
-                <p>Manage existing tournaments by clicking on one of the links below:</p>
-
-                <div class="list-group">
-                  <a class="list-group-item" ng-repeat="tournament in tournaments | orderBy:'-date'"
-                     href="#/tournament/{{ tournament.$id }}">
-                        {{ tournament.title }} <span class="pull-right">{{ tournament.date | date:'dd-MM-yyyy' }} <i
-                            class="icon-arrow-right icon-large"></i></span>
-                    </a>
-                </div>
-            </div>
-        </div>
+          </form>
+          <ul class="list-group">
+            <li class="list-group-item" ng-repeat="player in players | orderBy:'name'">
+              <span class="player-list-item">{{ player.name }}</span>
+              <a class="remove-player-item" ng-click="removePlayer($index)"><i
+                  class="icon-remove-circle icon-large"></i>
+              </a>
+            </li>
+          </ul>
+          <button ng-click="createTournament()"
+                  class="btn btn-primary" type="button"
+                  ng-disabled="disableCreation()">Create Tournament »
+          </button>
+        </fieldset>
+      </div>
     </div>
-    <!-- /.col-lg-6 -->
+    <div class="col-lg-6">
+      <div class="col-lg-9"><h2>Manage</h2>
+
+        <p>Manage existing tournaments by clicking on one of the links below:</p>
+
+        <div class="list-group">
+          <a class="list-group-item" ng-repeat="tournament in tournaments | orderBy:'-date'"
+             href="#/tournament/{{ tournament.$id }}">
+            {{ tournament.title }} <span class="pull-right">{{ tournament.date | date:'dd-MM-yyyy' }} <i
+              class="icon-arrow-right icon-large"></i></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.col-lg-6 -->
 </div>
