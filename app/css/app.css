@@ -223,6 +223,10 @@ p.status.good, p.good {
     right: 5px;
 }
 
+.dummy-match .winner-trophy {
+    display: none;
+}
+
 .winner-trophy-active {
     color: #D8AC6B;
     display: inline-block;

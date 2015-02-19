@@ -30,7 +30,6 @@ angular.module('myApp',
         });
 
         $routeProvider.when('/tournament/:tournamentId', {
-            authRequired: true,
             templateUrl: 'partials/TournamentDetailsView.html',
             controller: 'TournamentDetailsCtrl'
         });

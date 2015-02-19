@@ -281,6 +281,14 @@ angular.module('myApp.controllers', [])
                             }
                         }
                     }
+
+                    $scope.dummyFilter = function (item) {
+                      return item.name !== 'Dummy Player';
+                    };
+
+                    $scope.getWinner = function (players) {
+                      return item.name !== 'Dummy Player';
+                    };
                 });
 
 
