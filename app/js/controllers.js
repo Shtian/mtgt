@@ -219,6 +219,11 @@ angular.module('myApp.controllers', [])
 
             angularFire(FBURL + '/tournaments/' + $routeParams.tournamentId, $scope, 'remote', {}).
                 then(function () {
+                  $scope.$watch('remote.roundData.numberOfMatchesPlayed', function(newVal, oldVal){
+                    console.log("Search was changed to:"+newVal);
+                    $scope.remote.completed = $scope.remote.roundData.numberOfTotalMatches == $scope.remote.roundData.numberOfMatchesPlayed;
+                  });
+
                     $scope.dummyClass = function (player, opponent) {
                         if (player == 'Dummy Player' || opponent == 'Dummy Player') {
                             return "dummy-match";
@@ -288,8 +293,10 @@ angular.module('myApp.controllers', [])
 
                     $scope.getWinners = function (players) {
                       players = _.reject(_.sortBy(players,'score').reverse(), function(item){ return item.name === 'Dummy Player'; });
+
                       var highestScore = players[0].score;
                       var winners = _.where(players, {score: highestScore});
+
                       if(winners.length === 1){
                         return "THE MAGIC UNICORN IS " + winners[0].name;
                       }
