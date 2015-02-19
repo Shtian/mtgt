@@ -286,8 +286,14 @@ angular.module('myApp.controllers', [])
                       return item.name !== 'Dummy Player';
                     };
 
-                    $scope.getWinner = function (players) {
-                      return item.name !== 'Dummy Player';
+                    $scope.getWinners = function (players) {
+                      players = _.reject(_.sortBy(players,'score').reverse(), function(item){ return item.name === 'Dummy Player'; });
+                      var highestScore = players[0].score;
+                      var winners = _.where(players, {score: highestScore});
+                      if(winners.length === 1){
+                        return "THE MAGIC UNICORN IS " + winners[0].name;
+                      }
+                      return 'THE MAGIC UNICORNS ARE ' + _.pluck(winners,'name').join(', ');
                     };
                 });
 

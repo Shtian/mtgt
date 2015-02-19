@@ -1,6 +1,13 @@
 <div ng-controller="TournamentDetailsCtrl">
   <h2>{{ remote.title }}</h2>
 
+
+  <div class="row" ng-show="(remote.roundData.numberOfMatchesPlayed === remote.roundData.numberOfTotalMatches)">
+    <div class="col-lg-12">
+      <div class="winners">{{ getWinners(remote.players) }}<div>
+    </div>
+  </div>
+
   <div class="row">
 
     <div class="col-lg-3">
@@ -10,11 +17,7 @@
           <h3>Scoreboard</h3>
         </div>
       </div>
-      <div class="row" ng-hide="remote.completed">
-        <div class="col-lg-12">
-          <h2>AND THE MAGIC UNICORN IS: {{ getWinner(remote.players) }}</h2>
-        </div>
-      </div>
+
       <div class="score-board">
         <ul class="list-group">
           <li class="list-group-item clearfix"
@@ -35,7 +38,7 @@
         <div class="row">
 
           <div class="col-lg-12">
-            <h3 ng-class="{$index}">Round #{{ $index + 1 }}</h3>
+            <h3>Round #{{ $index + 1 }}</h3>
           </div>
         </div>
 
