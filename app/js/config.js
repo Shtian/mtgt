@@ -4,7 +4,7 @@
 angular.module('myApp.config', [])
 
    // version of this seed app
-   .constant('version', '0.1')
+   .constant('version', '0.8.0-alpha')
 
    // your Firebase URL goes here
    .constant('FBURL', 'https://mtgtdata.firebaseio.com');
