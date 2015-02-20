@@ -149,6 +149,17 @@ p.status.good, p.good {
 
 .score-board {
     font-size: 1.5em;
+    perspective(1000px);
+}
+
+.score-board li:hover {
+    transition: .3s;
+    transform: translate3d(-1px, -3px, -7px);
+    box-shadow: 3px 3px 4px #aaa;
+}
+
+.score-board li {
+    transition: .3s;
 }
 
 .score-board .progress {
