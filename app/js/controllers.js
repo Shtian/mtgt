@@ -267,19 +267,6 @@ angular.module('myApp.controllers', [])
                         }
                     }
 
-                    function adjustPlayerScore(playerName, value){
-                      var player = _.findWhere($scope.remote.players, {name: playerName});
-                      console.log("INCREMENT " +player.name);
-                      player.score+= value;
-                    }
-
-                    function adjustPlayerMatchesPlayed(match, value){
-                      var players = [];
-                      players.push(_.findWhere($scope.remote.players, {name: match.player}));
-                      players.push(_.findWhere($scope.remote.players, {name: match.opponent}));
-                      _.map(players, function(player) { player.matchesPlayed+=value; console.log("matches played +- " +player.name); })
-                    }
-
                     $scope.dummyFilter = function (item) {
                       return item.name !== 'Dummy Player';
                     };
@@ -295,6 +282,38 @@ angular.module('myApp.controllers', [])
                       }
                       return 'THE MAGIC UNICORNS ARE ' + _.pluck(winners,'name').join(', ');
                     };
+
+                    $scope.getPercentageComplete = function(matchesPlayed){
+                      var percent = percentagePlayed(matchesPlayed);
+                      return "width: " + percent +"%;";
+                    }
+
+                    $scope.getPercentageColor = function(matchesPlayed){
+                      var percent = percentagePlayed(matchesPlayed);
+                      return percent === 100 ? "progress-bar-success" : "";
+                    }
+
+                    function percentagePlayed(matchesPlayed){
+                      var hasDummyPlayers = tournamentHasDummyPlayers();
+                      var numberOfTotalMatchesPerPlayer = hasDummyPlayers ? $scope.remote.players.length - 2 : $scope.remote.players.length - 1;
+                      return Math.floor((matchesPlayed / numberOfTotalMatchesPerPlayer) * 100);
+                    }
+
+                    function adjustPlayerScore(playerName, value){
+                      var player = _.findWhere($scope.remote.players, {name: playerName});
+                      player.score+= value;
+                    }
+
+                    function adjustPlayerMatchesPlayed(match, value){
+                      var players = [];
+                      players.push(_.findWhere($scope.remote.players, {name: match.player}));
+                      players.push(_.findWhere($scope.remote.players, {name: match.opponent}));
+                      _.map(players, function(player) { player.matchesPlayed+=value; console.log("matches played +- " +player.name); })
+                    }
+
+                    function tournamentHasDummyPlayers(){
+                      return !!_.findWhere($scope.remote.players, {name: "Dummy Player"});
+                    }
                 });
 
 
