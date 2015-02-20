@@ -151,6 +151,16 @@ p.status.good, p.good {
     font-size: 1.5em;
 }
 
+.score-board .progress {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 4px;
+    margin-bottom: 0;
+    width: 100%;
+    border-radius: 0;
+}
+
 @media (min-width: 768px) {
     .score-board-affix {
         position: fixed;
@@ -161,6 +171,7 @@ p.status.good, p.good {
 .player-list-item {
     display: inline-block;
     margin: auto 0;
+    line-height: 2em;
 }
 
 .player-score {
@@ -209,10 +220,12 @@ p.status.good, p.good {
 }
 
 .match-complete {
-    color: rgb(4, 145, 4);
     position: absolute;
-    left: 20px;
-    top: 2px;
+    left: 23px;
+    top: 30px;
+    font-size: 24px;
+    color: rgba(92, 184, 92, 1);
+    text-shadow: 1px 4px 6px #FFF, 0 0 0 #000, 1px 4px 6px #FFF;
 }
 
 .winner-trophy {
