@@ -162,7 +162,9 @@ angular.module('myApp.controllers', [])
 
                 for (var i = 0; i < playerNameArray.length; i++) {
                     playerdata.push({
-                        name: playerNameArray[i].name, score: 0
+                        name: playerNameArray[i].name,
+                        score: 0,
+                        matchesPlayed: 0
                     });
                 }
                 // Generate all rounds with matches
@@ -242,37 +244,40 @@ angular.module('myApp.controllers', [])
 
                         // no winner, go through and increment score, set winner and increment matches played
                         if (match.winner == "") {
-                            incrementPlayerScore(playerName)
+                            adjustPlayerScore(playerName, 1)
+                            adjustPlayerMatchesPlayed(match, 1);
                             match.winner = playerName;
                             $scope.remote.roundData.numberOfMatchesPlayed++;
                         }
                         else {
                             //Decrease score and remove winner if the player is already the winner
                             if (match.winner == playerName) {
-                              decrementPlayerScore(playerName);
+                              adjustPlayerScore(playerName, -1);
+                              adjustPlayerMatchesPlayed(match, -1);
                               match.winner = "";
                               $scope.remote.roundData.numberOfMatchesPlayed--;
                             }
                             // winner is not the current winner and the winner is already set.
                             // find current winner and remove, set new winner.
                             else {
-                              decrementPlayerScore(match.winner)
-                              incrementPlayerScore(playerName)
+                              adjustPlayerScore(match.winner, -1)
+                              adjustPlayerScore(playerName, 1)
                               match.winner = playerName;
                             }
                         }
                     }
 
-                    function incrementPlayerScore(playerName){
+                    function adjustPlayerScore(playerName, value){
                       var player = _.findWhere($scope.remote.players, {name: playerName});
                       console.log("INCREMENT " +player.name);
-                      player.score++;
+                      player.score+= value;
                     }
 
-                    function decrementPlayerScore(playerName){
-                      var player = _.findWhere($scope.remote.players, {name: playerName});
-                      console.log("DECREMENT " +player.name);
-                      player.score--;
+                    function adjustPlayerMatchesPlayed(match, value){
+                      var players = [];
+                      players.push(_.findWhere($scope.remote.players, {name: match.player}));
+                      players.push(_.findWhere($scope.remote.players, {name: match.opponent}));
+                      _.map(players, function(player) { player.matchesPlayed+=value; console.log("matches played +- " +player.name); })
                     }
 
                     $scope.dummyFilter = function (item) {
